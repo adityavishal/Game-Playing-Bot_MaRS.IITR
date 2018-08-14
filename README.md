@@ -47,20 +47,24 @@ The mechanical design of bot includes :
         •	ARDUINO IDE
 
 
----------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 
         PROCEDURE		
-               
+         
+----------------------------------------------------------------------------------------------------------------------------------------
+	 
 		>	Completing the glove
 	     
----------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 
 
 ![Glove Design](https://github.com/adityavishal/Game-Playing-Bot_MaRS.IITR/blob/master/Images/Project%20Images/Glove%20Design.jpg?raw=true)
 	     
 
-1.	First of all, solder each pin of the flex sensor to one end of a rainbow wire. Then, solder the other pin of each of the three sensors to one common wire.
-This is the setup for the sensor that detects the hand’s movements.
+1.	First of all, solder each pin of the flex sensor to one end of a rainbow wire. Then, solder the other pin of each of the three 		sensors to one common wire.
+	This is the setup for the sensor that detects the hand’s movements:
+
+https://github.com/adityavishal/Game-Playing-Bot_MaRS.IITR/blob/master/Images/Circuit%20Diagrams/flex_circuit.jpg?raw=true
 
 2.	Now stitch the flex sensors using thread, one by one on the thumb, index finger and on the middle finger.
 
@@ -69,23 +73,27 @@ This is the setup for the sensor that detects the hand’s movements.
 4.	Build the circuit according to the schematic shown
 
 5.	Attach the Bluetooth module (HC-05) and the battery in the Arduino Nano as shown. Be careful to attach a voltage divider if your 
-Bluetooth module accept only 3.3V. HC 05 has been seen to work directly with 5v input . But for safety , use  voltage divider.
+	bluetooth module accept only 3.3V. HC 05 has been seen to work directly with 5v input . But for safety , use  voltage divider.
 
 6.	Once the circuit is working perfectly , make the circuit on perforated circuit board.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 		>	Building the hand movement electronics
+		
+https://github.com/adityavishal/Game-Playing-Bot_MaRS.IITR/blob/master/Images/Project%20Images/Robot%20Hand.jpg?raw=true
 
 1.	 Build the circuit according to the schematic shown below.
 
-2.	Connect the motor drivers according to schematic shown. Make sure both the motor drivers are powered using different adapters otherwise they may not function properly.
+https://github.com/adityavishal/Game-Playing-Bot_MaRS.IITR/blob/master/Images/Circuit%20Diagrams/bot_hand_circuit.jpg?raw=true
+
+2.	Connect the motor drivers according to schematic shown. Make sure both the motor drivers are powered using different adapters 		otherwise they may not function properly.
 
 3.	Follow the link given below to configure the two modules:
 
 https://howtomechatronics.com/tutorials/arduino/how-to-configure-pair-two-hc-05-bluetooth-module-master-slave-commands/
 
-4.	The actuators usually generate a lot of heat so watch out for any heating in the solenoids or in the motor driver or they may burn out.
+4.	The actuators usually generate a lot of heat so watch out for any heating in the solenoids or in the motor driver or they may 		burn out.
 
 5.	At this stage, the electronics portion of the robotic hand is complete.
 
@@ -123,9 +131,9 @@ To configure HC-05 use AT commands. See that parity bit and baud rate is same in
 
           FUTURE IMPROVEMENTS:
 
-1. For indepent control of each finger , 5 seperate servos can be used
+1. 	For indepent control of each finger , 5 seperate servos can be used
 
-2.  Instead of using flex sensors we could have used camera to detect opponents move
+2. 	Instead of using flex sensors we could have used camera to detect opponents move
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
