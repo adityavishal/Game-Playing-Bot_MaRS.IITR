@@ -64,7 +64,7 @@ The mechanical design of bot includes :
 1.	First of all, solder each pin of the flex sensor to one end of a rainbow wire. Then, solder the other pin of each of the three 		sensors to one common wire.
 	This is the setup for the sensor that detects the hand’s movements:
 
-https://github.com/adityavishal/Game-Playing-Bot_MaRS.IITR/blob/master/Images/Circuit%20Diagrams/flex_circuit.jpg?raw=true
+![Glove Circuit Design](https://github.com/adityavishal/Game-Playing-Bot_MaRS.IITR/blob/master/Images/Circuit%20Diagrams/flex_circuit.jpg?raw=true)
 
 2.	Now stitch the flex sensors using thread, one by one on the thumb, index finger and on the middle finger.
 
@@ -81,17 +81,17 @@ https://github.com/adityavishal/Game-Playing-Bot_MaRS.IITR/blob/master/Images/Ci
 
 		>	Building the hand movement electronics
 		
-https://github.com/adityavishal/Game-Playing-Bot_MaRS.IITR/blob/master/Images/Project%20Images/Robot%20Hand.jpg?raw=true
+![Robot Design](https://github.com/adityavishal/Game-Playing-Bot_MaRS.IITR/blob/master/Images/Project%20Images/Robot%20Hand.jpg?raw=true)
 
 1.	 Build the circuit according to the schematic shown below.
 
-https://github.com/adityavishal/Game-Playing-Bot_MaRS.IITR/blob/master/Images/Circuit%20Diagrams/bot_hand_circuit.jpg?raw=true
+![Robot Design](https://github.com/adityavishal/Game-Playing-Bot_MaRS.IITR/blob/master/Images/Circuit%20Diagrams/bot_hand_circuit.jpg?raw=true)
 
 2.	Connect the motor drivers according to schematic shown. Make sure both the motor drivers are powered using different adapters 		otherwise they may not function properly.
 
 3.	Follow the link given below to configure the two modules:
 
-https://howtomechatronics.com/tutorials/arduino/how-to-configure-pair-two-hc-05-bluetooth-module-master-slave-commands/
+[How to configure bluetooth modules](https://howtomechatronics.com/tutorials/arduino/how-to-configure-pair-two-hc-05-bluetooth-module-master-slave-commands/)
 
 4.	The actuators usually generate a lot of heat so watch out for any heating in the solenoids or in the motor driver or they may 		burn out.
 
