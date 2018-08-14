@@ -51,7 +51,7 @@ The mechanical design of bot includes :
 
         PROCEDURE		
                
-               •	Completing the glove
+		>	Completing the glove
 	     
 ---------------------------------------------------------------------------------------------------------------------------------------
 
@@ -75,7 +75,7 @@ Bluetooth module accept only 3.3V. HC 05 has been seen to work directly with 5v 
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-                Building the hand movement electronics
+		>	Building the hand movement electronics
 
 1.	 Build the circuit according to the schematic shown below.
 
@@ -95,13 +95,13 @@ thumb1=5,thumb2=6,index1=12,index2=13,pwm_thumb=10,pwm_index=11		-> pin no.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-          WORK :
+          WORKING :
 
 The palm is connected with several strings in different finger which are futher connected to linear actuators . The strings of middle finger and index fingers are joined together and for other three also joined so we have to use only 2 linear actuators . It worked as if there is a change of length dx at one end then same will at other so finger moved. Linear actuator worked according to the code fed through arduino.
 
 The flex sensors which are fitted in the glove of opponent bend and its ressistance changes. We built the circuit in such a way that the change in resistance causes change in potential difference . This potential difference is measured from analog input pins . There are different set of range of values for each flex for stone, paper and scissors . We observed these values and mapped them from 0 to 90. These values were compared to see if we drew stone , paper or scissors . characters – a,b,c  were sent by hc 05 module signifying that the human hand drew ston,paper or scissor respectively.
 
-The module hc 05 connected to robot hand received those characters and actuated the linear actuators accordingly to give the appropriate response i.e for stone-paper,for scissors-stone,etc.
+The module HC-05 connected to robot hand received those characters and actuated the linear actuators accordingly to give the appropriate response i.e for stone-paper,for scissors-stone,etc.
 
           HINT: 
 
@@ -110,13 +110,12 @@ For stone- both index (and middle finger) and thumb (and ring finger) are bent.
 For paper- both index (and middle finger) and thumb (and ring finger)  are stretched.
 For scissors- index (and middle finger)  is stretched while thumb (and ring finger) is bent.
 These 3 different conditions can be noticed from change in potential difference in flex sensors. 
-To configure hc 05 use AT commands. See that parity bit and baud rate is same in both the modules.
+To configure HC-05 use AT commands. See that parity bit and baud rate is same in both the modules.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
         FUTURE SCOPE
 
-1.	This bot has a very good scope in various fields, say medical fields, intelligent design of robots, etc. It can also be used to further the technology of fine mechanical design for human parts of the body and can be used to develop humanoid robots.
-
+1.	This bot has a very good scope in various fields, say medical fields, intelligent design of robots, etc. It can also be used to 	further the technology of fine mechanical design for human parts of the body and can be used to develop humanoid robots.
 2.	An intelligent response system powered by artificial intelligence would enable us to interact with the future robots.
 
 
@@ -132,11 +131,11 @@ To configure hc 05 use AT commands. See that parity bit and baud rate is same in
 
             TEAM MEMBERS :
 
-1 Mridul Agarwal	(17117048)
+1 [Mridul Agarwal](https://www.facebook.com/mridul.agarwal.712)	(17117048)
 
 2 Kunal Kumar		(17113057)
 
-3 Vishal Rai		(17117097)
+3 [Vishal Rai](https://www.facebook.com/a.adityavishal)		(17117097)
 
 4 Utkarsh Mishra	(17117093)
 
@@ -146,13 +145,13 @@ To configure hc 05 use AT commands. See that parity bit and baud rate is same in
 
             MENTORS :
 
-1 Alok Gupta		(16117010)
+1 [Alok Gupta](https://www.facebook.com/profile.php?id=100012330910173)
 
-2 Utkarsh Deepak
+2 [Utkarsh Deepak](https://www.facebook.com/utkarshdeepak23)
 
-3 Shivam Shrivastava
+3 [Shivam Shrivastava](https://www.facebook.com/profile.php?id=100005093531213&ref=br_rs)
 
-4 Bhaskar Kaushik
+4 [Bhaskar Kaushik](https://www.facebook.com/profile.php?id=100005366476528&ref=br_rs)
 
                       Thank You!!!
 
