@@ -52,9 +52,9 @@ The mechanical design of bot includes :
         PROCEDURE		
                
                •	Completing the glove
-	       
-	       
-             ![Glove Design](https://github.com/adityavishal/Game-Playing-Bot_MaRS.IITR/blob/master/Images/Project%20Images/Glove%20Design.jpg?raw=true)
+	     
+----------------------------------------------------------------------------------------------------------------------------------------
+          ![Glove Design](https://github.com/adityavishal/Game-Playing-Bot_MaRS.IITR/blob/master/Images/Project%20Images/Glove%20Design.jpg?raw=true)
 	     
 
 1.	First of all, solder each pin of the flex sensor to one end of a rainbow wire. Then, solder the other pin of each of the three sensors to one common wire.
