@@ -5,7 +5,7 @@ Rock-Paper-Scissor is a semi automated bot. It consists of a mechanical palm to 
 
       ACKNOWLEDGEMENT:
 
-We would like to express our special thanks of gratitude to our mentors Alok Gupta(ME 2ndyear),utkarsh Deepak (EPH 2nd year)as well as our guide and senior mentor Shivam Shrivastava(EE 4th year & secretary, Models and Robotics Section) and Bhaskar Kaushik (EE 4th Year) who gave us the golden opportunity to do this wonderful project which helped us in doing a lot of research and we came to know about so many new things.
+We would like to express our special thanks of gratitude to our mentors Alok Gupta, Utkarsh Deepak as well as our guide and senior mentor Shivam Shrivastava(EE 4th year & secretary, Models and Robotics Section) and Bhaskar Kaushik (EE 4th Year) who gave us the golden opportunity to do this wonderful project which helped us in doing a lot of research and we came to know about many new things.
 
          HARDWARE:
 
@@ -51,8 +51,7 @@ The mechanical design of bot includes :
 
         PROCEDURE		
 
-               
-               *********************FOR CIRCUIT DOWNLOAD THE IMAGE FILES*****************************
+             ![Image](https://github.com/adityavishal/Game-Playing-Bot_MaRS.IITR/blob/master/Images/Project%20Images/Glove%20Design.jpg?raw=true)
                
                •	Completing the glove
 
