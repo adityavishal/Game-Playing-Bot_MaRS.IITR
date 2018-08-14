@@ -51,7 +51,7 @@ The mechanical design of bot includes :
 
         PROCEDURE		
 
-             ![!alt text](https://github.com/adityavishal/Game-Playing-Bot_MaRS.IITR/blob/master/Images/Project%20Images/Glove%20Design.jpg?raw=true)
+             ![Glove Design](https://github.com/adityavishal/Game-Playing-Bot_MaRS.IITR/blob/master/Images/Project%20Images/Glove%20Design.jpg?raw=true)
                
                •	Completing the glove
 
