@@ -1,5 +1,4 @@
-
-        Abstract
+# Abstract
 
 Rock-Paper-Scissor is a semi automated bot. It consists of a mechanical palm to reflect stone,paper or scissor. A glove is used to take input from the opponent . The palm is controlled using Arduino,Linear actuators and wires. The glove consists off Flex Sensors to obtain input and then reflect the output as per the code. It is designed in such a way that it will win against you everytime.
 
